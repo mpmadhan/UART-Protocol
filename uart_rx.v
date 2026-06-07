@@ -44,8 +44,9 @@ module uart_rx(
         RX_DATA: begin
           if(rx_en) begin
             sample_count <= sample_count + 1'b1;
-            if(sample_count == 7)
+            if(sample_count == 7) begin
               temp_reg[bit_pos] <= rx;            //Sampling mid bit value for accuracy
+            end
             if(sample_count == 15) begin
               sample_count <= 0;
               bit_pos <= bit_pos + 1'b1;
