@@ -27,7 +27,7 @@ module uart_tb();
       data_in = val;
       @(posedge clk);
       tx_start = 1'b0;
-      @(posedge clk);
+      repeat(6000) @(posedge clk);
       tx_start = 1'b1;
       $display("---DATA SENT---");
     end
