@@ -462,7 +462,6 @@ endmodule
 ---DATA SENT---
 [PASS] SUCCESS! Verified Data: ab
 ```
-<img width="1243" height="312" alt="image" src="https://github.com/user-attachments/assets/6ba90fd3-965c-4594-8647-e310cfac377b" />
 
 ---
 
@@ -480,6 +479,7 @@ endmodule
 
 ## Simulation
 
+<img width="1243" height="312" alt="image" src="https://github.com/user-attachments/assets/850d3feb-6bf6-41fb-80c9-ebff777b2b1a" />
 Simulated on [EDA Playground](https://www.edaplayground.com) using Icarus Verilog.
 
 ## Author
